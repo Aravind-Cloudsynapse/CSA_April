@@ -5,7 +5,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 
 @WebServlet(urlPatterns = "/hello", loadOnStartup = 1)
-#hi
+hi
 public class HelloServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
